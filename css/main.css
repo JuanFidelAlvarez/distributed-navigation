@@ -1,0 +1,55 @@
+html {
+  box-sizing: border-box;
+  font-family: sans-serif;
+  line-height: 1.5;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  font-size: 1.125rem;
+  background-color: #fff;
+}
+
+header {
+  margin: 0;
+  background-color: #e2e2e2;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+}
+
+header h1 {
+  padding: .6rem;
+}
+
+header img {
+  width: 2rem;
+  padding: 1rem;
+}
+
+header p {
+  margin: .5rem;
+}
+
+nav ul {
+  padding: 1em;
+  display: flex;
+  list-style-type: none;
+  margin: auto;
+  flex-direction: row;
+}
+
+nav a {
+  color: #0074d6;
+  padding: .75em;
+}
+
+nav a:hover {
+  color: #0074d6;
+  padding: .75em;
+  background-color: #e2e2e2;
+}
