@@ -23,16 +23,18 @@ header {
 }
 
 header h1 {
-  padding: .6rem;
+  padding-left: .6rem;
 }
 
 header img {
   width: 2rem;
-  padding: 1rem;
+  padding-left: 1rem;
+  order: -1;
 }
 
 header p {
-  margin: .5rem;
+  margin-left: .5rem;
+  padding-left: 1rem;
 }
 
 nav ul {
@@ -45,11 +47,11 @@ nav ul {
 
 nav a {
   color: #0074d6;
-  padding: .75em;
+  padding-left: .75em;
 }
 
 nav a:hover {
   color: #0074d6;
-  padding: .75em;
+  padding-left: .75em;
   background-color: #e2e2e2;
 }
